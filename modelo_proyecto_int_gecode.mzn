@@ -29,4 +29,4 @@ constraint forall(i in 1..m) (x = ciudades_m[i,1] -> y != ciudades_m[i,2]);
 
 solve maximize min_distancia / precision;
 
-output ["x = \(x / precision) \ny = \(y / precision)\nDistancia minima = \(min_distancia / precision)"]
+output ["x = \(x / precision) \ny = \(y / precision)\nDistancia = \(min_distancia / precision)"]

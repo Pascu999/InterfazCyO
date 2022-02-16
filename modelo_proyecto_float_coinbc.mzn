@@ -25,4 +25,4 @@ constraint forall(i in 1..m) (x = ciudades[i,1] -> y != ciudades[i,2]);
 
 solve maximize min_distancia;
 
-output ["x = \(show_float(1,1,x)) \ny = \(show_float(1,1,y))\nDistancia minima = \(show_float(1,1,min_distancia))"]
+output ["x = \(show_float(1,1,x)) \ny = \(show_float(1,1,y))\nDistancia = \(show_float(1,1,min_distancia))"]

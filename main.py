@@ -27,7 +27,6 @@ responseY = 0
 
 def executeProgram():
 
-  
     
     salida = "["
     for i in ciudades:
@@ -59,7 +58,6 @@ def executeProgram():
     f.close()
     file1 = open('Datos.dzn', 'r')
     #print(file1.read())
-
 
     conectMinizinc()
 
